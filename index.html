@@ -6,14 +6,19 @@
         <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
+        <!-- Sezione di visualizzazione della data e ora attuale, lasciata vuota perchè aggiornata con js -->
         <h1 id="date"></h1>
         <div>
             <h2>CODICI e COLORI</h2>
+
+            <!-- sezione di inserimento dati di input (colore e testo) -->
             <div id="input-section" class="section">
                     <span id="coloreTxt">Inserisci un numero per il rosso: </span><span><input type="number" id="input" placeholder="Inserisci un valore tra 0 e 255"></span><br>
                     Inserisci un testo: <span><input type="text" id="inputText" placeholder="Testo di esempio"></span><br>
                 <button onclick="elabora()">Elabora</button><button onclick="cancella()">Cancella</button>
             </div>
+
+            <!-- sezione dove si vedono gli output -->
             <div id="output-section" class="section">
                 <h3>OUTPUT</h3>
                 <p id="output1"></p>
@@ -21,6 +26,7 @@
             </div>
         </div>
 
+        <!-- collegamenti al js e a jquery -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="script.js"></script>
     </body>
