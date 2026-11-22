@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coding&Color</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <h1 id="date"></h1>
+        <div>
+            <h2>CODICI e COLORI</h2>
+            <div id="input-section" class="section">
+                    <span id="coloreTxt">Inserisci un numero per il rosso: </span><span><input type="number" id="input" placeholder="Inserisci un valore tra 0 e 255"></span><br>
+                    Inserisci un testo: <span><input type="text" id="inputText" placeholder="Testo di esempio"></span><br>
+                <button onclick="elabora()">Elabora</button><button onclick="cancella()">Cancella</button>
+            </div>
+            <div id="output-section" class="section">
+                <h3>OUTPUT</h3>
+                <p id="output1"></p>
+                <p id="output2"></p>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
